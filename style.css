@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    padding: 80px 200px;
+    max-width: 1500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 76px;
+    max-width: 1500px;
+}
+
+nav div   {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #1B1A18;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+nav button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 8%;
+    color: #0076F5;
+    width:116px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+/* markaz */
+.Markaz {
+    display: flex;
+    align-items: center;
+    max-width: 1520px;
+    gap:50px;
+    margin-bottom:70px
+
+    
+}
+.Markaz h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+    color: #1B1A18;
+    margin-bottom: 48px;
+  
+
+
+}
+.Markaz button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    border:2px solid blue;
+    border-radius: 10px;
+    color:#F5FAFF;
+    text-decoration: none;
+    width: 226px;
+    height: 50px;
+    gap:60px;
+    cursor: pointer;
+}
+.Markaz img {
+    width: 500px;
+    height: auto;
+}
+
+/* markaz */
+/* statistika */
+
+.stat{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stath2 {
+    font-family: Fira Code;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -6%;
+    color:#1B1A18;
+
+}
+
+.stat div{
+    border: 2px solid #F5FAFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 300px;
+    height: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 100px;
+}
+
+.stat img{
+    width: 72px;
+    height: 72px;
+    margin-top: 32px;
+}
+
+.stath2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    letter-spacing: -6%;
+    color: #1B1A18;
+    margin-bottom: 30px; 
+}
+
+.stat h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -6%;
+    color: #1B1A18;
+     
+}
+
+.stat p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #514D48;
+}
+
+/* statistika */
+.We {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -6%;
+    color:#1B1A18;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+/* aboutus */
+    .aboutus {
+        display:flex;
+        max-width: 1500px;
+        padding:0 auto;
+        align-items: center;
+
+    }
+    .aboutus div >h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 34px;
+        letter-spacing: 0%;
+        color:#1B1A18;
+
+    }
+    .aboutus div >p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0%;
+        color:#514D48;
+
+    }
+/* aboutus */
+.lesson {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+.lesson h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -6%;
+    color:#1B1A18;  
+}
+.lesson a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color:#0076F5;
+    text-decoration: none;
+}
+/* Kurs */
+.Kurs {
+    display: flex;
+    gap:40px;
+
+}
+.Tel {  
+    border: 2px solid #F5FAFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 112px;
+    
+    
+}
+
+
+.Kurs img {
+    width: 150px;
+}
+.Kurs  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color:#1B1A18;  
+    text-align: center;
+}
+.Kurs p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#514D48;
+}
+.Kurs button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color:#0076F5;
+    background-color: white;
+    border: 2px solid #0076F5;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 195px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+/* Kurs */
+   .elit {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+   }
+   .elit h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -6%;
+    color:#1B1A18;
+   }
+   .elit a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color:#0076F5;
+    text-decoration: none;
+    
+   }
+
+   /* turpis */
+   .turpis {
+    max-width: 1500px;
+     display: flex;
+     justify-content: center;
+     padding-bottom: 60px;
+   }
+   .turpis h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color:#1B1A18;
+
+   }
+   .turpis p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color:#514D48;
+    text-align: center;
+    
+   }
+   .turpis img {
+    width: 250px;
+   }
+   .turpis button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color:#0076F5;
+    width: 195px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #0076F5 ;
+
+
+   }
+ 
+   .turpis div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   /* turpis */
+
+   .mentor {
+    display: flex;
+    max-width: 1500px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+   }
+   /* mentor */
+   .mentor h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -6%;
+    color:#1B1A18;
+    
+   }
+   .mentor a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color:#0076F5;
+    text-decoration: none;;
+
+   }
+   /* mentor */
+
+   /* Lorem */
+    .Lorem {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin-bottom: 70px;
+    gap:25px;
+    }
+    Lorem h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color:#1B1A18;
+    }
+    .Lorem h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color:#0076F5;
+    }
+    .Lorem p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 250px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#514D48;
+    width: 280px;
+         
+    }
+    .Lorem > Rasm {
+       margin-left: 70px;
+    }
+    .Lorem div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   /* Lorem */
+   .ser {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -6%;
+    color: #1B1A18;
+    margin-bottom: 70px;
+   }
+   /* certificate */
+   .certificate {
+    display: flex;
+    max-width: 1500px;
+    margin-bottom: 70px;
+    gap:70px;
+    justify-content: center;
+    align-items: center;
+   }
+    .certificate h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    width: 300px;
+    height: 30px;
+    color:#1B1A18;
+    }
+    .certificate p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    width: 300px;
+    height: 50px;
+    color:#514D48;
+    }
+    .student {
+        display: flex;
+        align-items: center;
+    }
+   /* certificate */
+   /* built */
+   footer {
+    max-width: 1500px;
+    height: 400px;
+    padding-bottom: 20px;
+   }
+   .built {
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    gap:50px;
+   }
+   .built h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #31344B;
+    margin-bottom: 24px;
+    
+   }
+   .built p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #31344B;
+    
+   }
+
+   .Join input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color:#2990FF;
+    padding: 5px 10px;
+    width: 354px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+   }
+   .Join button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color:#F5FAFF;
+    background-color: #0076F5;
+    border-radius: 10px;
+    width: 354px;
+    height: 50px;
+    cursor: pointer;
+   }
+   .Kit img {
+    margin-top: 27px;}
+   .Join ::placeholder {
+   color: #0076F5;
+   }
+   /* built */
+
+   /* footer */
+   .All {
+   display: flex;
+   justify-content: center;
+   flex-direction: column-reverse;
+   }
+    .All p {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     letter-spacing: 0%;
+     color: #31344B;
+     padding-top: 40px;
+     text-align: center;
+    }
+    .footerbottom{
+     text-align: center;
+    }
+        
+    .footerbottom img{
+     margin-top: 40px;
+    margin-bottom:16px ;
+    }
+        
+    .footerbottom p{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+   /* footer */
+
+
+
+
+
